@@ -1,0 +1,8 @@
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\bin\Debug\VreiSaFiiMilionar.exe
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\bin\Debug\VreiSaFiiMilionar.pdb
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\obj\Debug\VreiSaFiiMilionar.csprojResolveAssemblyReference.cache
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\obj\Debug\VreiSaFiiMilionar.FormEditor.resources
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\obj\Debug\VreiSaFiiMilionar.Properties.Resources.resources
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\obj\Debug\VreiSaFiiMilionar.csproj.GenerateResource.Cache
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\obj\Debug\VreiSaFiiMilionar.exe
+c:\users\raul\documents\visual studio 2015\Projects\VreiSaFiiMilionar\VreiSaFiiMilionar\obj\Debug\VreiSaFiiMilionar.pdb

@@ -1,0 +1,393 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{CACCFE40-4F7C-4583-887A-C681647B6C5B}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>VreiSaFiiMilionar</RootNamespace>
+    <AssemblyName>VreiSaFiiMilionar</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|x86'">
+    <DebugSymbols>true</DebugSymbols>
+    <OutputPath>bin\x86\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <DebugType>full</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|x86'">
+    <OutputPath>bin\x86\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <DebugType>pdbonly</DebugType>
+    <PlatformTarget>x86</PlatformTarget>
+    <ErrorReport>prompt</ErrorReport>
+    <CodeAnalysisRuleSet>MinimumRecommendedRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Vrei_să_fii_milionar.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Spire.Common">
+      <HintPath>D:\MilionaireProject\useful\ImageOperationsInWord\ImageOperationsInWord\bin\Debug\Spire.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Doc, Version=4.9.33.4040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\MilionaireProject\useful\ImageOperationsInWord\ImageOperationsInWord\bin\Debug\Spire.Doc.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.License, Version=1.3.2.40, Culture=neutral, PublicKeyToken=b1144360237c8b3f, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\MilionaireProject\useful\ImageOperationsInWord\ImageOperationsInWord\bin\Debug\Spire.License.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.Pdf, Version=2.8.87.4040, Culture=neutral, PublicKeyToken=663f351905198cb3, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>D:\MilionaireProject\useful\ImageOperationsInWord\ImageOperationsInWord\bin\Debug\Spire.Pdf.dll</HintPath>
+    </Reference>
+    <Reference Include="Spire.XLS">
+      <HintPath>D:\MilionaireProject\useful\ImageOperationsInWord\ImageOperationsInWord\bin\Debug\Spire.XLS.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BlackMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BlackMain.Designer.cs">
+      <DependentUpon>BlackMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Consola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Consola.Designer.cs">
+      <DependentUpon>Consola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DBLayoutPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="DBLayoutPanel.Designer.cs">
+      <DependentUpon>DBLayoutPanel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DenumiriNivele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DenumiriNivele.Designer.cs">
+      <DependentUpon>DenumiriNivele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DespreAplicatie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="DespreAplicatie.Designer.cs">
+      <DependentUpon>DespreAplicatie.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditorModifica.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditorModifica.Designer.cs">
+      <DependentUpon>FormEditorModifica.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormEditor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormEditor.Designer.cs">
+      <DependentUpon>FormEditor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game.Designer.cs">
+      <DependentUpon>Game.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GameResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GameResult.Designer.cs">
+      <DependentUpon>GameResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GestionareIntrebari.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionareIntrebari.Designer.cs">
+      <DependentUpon>GestionareIntrebari.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main.Designer.cs">
+      <DependentUpon>Main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Parola.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Parola.Designer.cs">
+      <DependentUpon>Parola.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Rezultate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rezultate.Designer.cs">
+      <DependentUpon>Rezultate.cs</DependentUpon>
+    </Compile>
+    <Compile Include="SetGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="SetGame.Designer.cs">
+      <DependentUpon>SetGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="TimpApel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="TimpApel.Designer.cs">
+      <DependentUpon>TimpApel.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="BlackMain.resx">
+      <DependentUpon>BlackMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Consola.resx">
+      <DependentUpon>Consola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DenumiriNivele.resx">
+      <DependentUpon>DenumiriNivele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="DespreAplicatie.resx">
+      <DependentUpon>DespreAplicatie.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditorModifica.resx">
+      <DependentUpon>FormEditorModifica.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormEditor.resx">
+      <DependentUpon>FormEditor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game.resx">
+      <DependentUpon>Game.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GameResult.resx">
+      <DependentUpon>GameResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionareIntrebari.resx">
+      <DependentUpon>GestionareIntrebari.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main.resx">
+      <DependentUpon>Main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Parola.resx">
+      <DependentUpon>Parola.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="Rezultate.resx">
+      <DependentUpon>Rezultate.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="SetGame.resx">
+      <DependentUpon>SetGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="TimpApel.resx">
+      <DependentUpon>TimpApel.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="ClassDiagram1.cd" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mainslot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slot2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slotactive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slotactive2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slotcorect.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\slotcorect2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StudioBackground.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <COMReference Include="Microsoft.Office.Core">
+      <Guid>{2DF8D04C-5BFA-101B-BDE5-00AA0044DE52}</Guid>
+      <VersionMajor>2</VersionMajor>
+      <VersionMinor>7</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="Microsoft.Office.Interop.Word">
+      <Guid>{00020905-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>8</VersionMajor>
+      <VersionMinor>6</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+    <COMReference Include="VBIDE">
+      <Guid>{0002E157-0000-0000-C000-000000000046}</Guid>
+      <VersionMajor>5</VersionMajor>
+      <VersionMinor>3</VersionMinor>
+      <Lcid>0</Lcid>
+      <WrapperTool>primary</WrapperTool>
+      <Isolated>False</Isolated>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+    </COMReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\refacut.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\selected.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\BackgroundNivele.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\VeziNivelul.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Ask.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Call.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FiftyFifty.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AskX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CallX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\FiftyFiftyX.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cashout.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\AdaugaIntrebare.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\DespreAplicatie.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\GestioneazaIntebari.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\JocNou.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Rezultate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\StartJoc.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivele.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivele1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivele2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivele3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivele4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Nivele5.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermark.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\watermark2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Disclaimer.png" />
+    <None Include="Resources\Rezultate1.png" />
+    <None Include="Resources\GestioneazaIntebari1.png" />
+    <None Include="Resources\Changeqs.png" />
+    <None Include="Resources\ChangeqsGr.png" />
+    <None Include="Resources\ChangeqsX.png" />
+    <None Include="Resources\reload.png" />
+    <None Include="Resources\AutoOFF.png" />
+    <None Include="Resources\AutoON.png" />
+    <None Include="Resources\Next1.png" />
+    <None Include="Resources\Next2.png" />
+    <None Include="Resources\Disclaimer2.png" />
+    <Content Include="Vrei_să_fii_milionar.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
