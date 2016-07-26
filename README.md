@@ -1,0 +1,2 @@
+# vsfm
+Aplicația educativă “Vrei Să Fii Milionar?” imitând jocul televizat cu același nume este realizată pentru a putea fi folosită ȋn scopuri educative dar și de divertisment, domeniile de aplicare fiind nelimitate. Utilitatea maximă a aplicației este atinsă atunci când este folosită pentru recapitulare, fie un capitol sau un ȋntreg semestru. Datorită designului atractiv și a păstrării regulilor clasice a jocului “Vrei să fii milionar?” reușește să captiveze atenția elevilor, iar cu ȋntrebările adecvate sporind rezultatele acestora.
